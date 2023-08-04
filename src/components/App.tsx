@@ -1,5 +1,5 @@
-import Header from '../Navbar/Navbar';
 import styled from 'styled-components';
+import Header from './Navbar';
 
 const StyledApp = styled.div`
   display: flex ;
