@@ -1,8 +1,16 @@
-import Navbar from '../Navbar/Navbar';
+import Header from '../Navbar/Navbar';
+import styled from 'styled-components';
+
+const StyledApp = styled.div`
+  display: flex ;
+  flex-direction: column;
+`;
 
 function App() {
   return (
-    <Navbar />
+    <StyledApp>
+      <Header />
+    </StyledApp>
   );
 }
 
