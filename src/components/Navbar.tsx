@@ -12,10 +12,13 @@ const Title = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
-  background-color: #F4F2DE;
+  background-color: #E9B384;
   flex-grow: 1;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  
 `;
 
 const NavLinks = styled.div`
@@ -25,14 +28,18 @@ const NavLinks = styled.div`
   height: min-content;
   padding: 10px 0px;
   gap: 15px;
-  background-color: #E9B384;
+  background-color: #F4F2DE;
 `;
 
 function Header() {
   return (
     <StyledHeader>
       <Title>
-        Shopping Website
+        <h1>
+          Name
+          <br />
+          Placeholder
+        </h1>
       </Title>
       <NavLinks>
         <Button name="HOME" />

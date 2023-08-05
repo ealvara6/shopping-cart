@@ -26,3 +26,12 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # shopping-cart
+
+# credits
+Photo by Karol D: https://www.pexels.com/photo/gagdets-on-wooden-surface-325153/
+
+Photo by cottonbro studio: https://www.pexels.com/photo/woman-wearing-black-dress-6474922/
+
+Photo by Terje Sollie: https://www.pexels.com/photo/pair-of-brown-leather-casual-shoes-on-table-298863/
+
+Photo by THE 5TH: https://www.pexels.com/photo/woman-wearing-peach-dress-and-black-jacket-s-left-hand-closeup-photography-179909/

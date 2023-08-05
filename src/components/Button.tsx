@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
-const StyledButton = styled.button`
-  background: linear-gradient(to left, #E9B384 50%, #7C9D96 50%) right;
+const StyledButton = styled.button<{ $shop? : boolean }>`
+  background: linear-gradient(to left, #F4F2DE 50%, #7C9D96 50%) right;
   background-size: 200% 100%;
   border: none;
   height: 45px;

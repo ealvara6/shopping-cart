@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Header from './Navbar';
+import Home from './Home';
 
 const StyledApp = styled.div`
   display: flex ;
@@ -10,6 +11,7 @@ function App() {
   return (
     <StyledApp>
       <Header />
+      <Home />
     </StyledApp>
   );
 }
