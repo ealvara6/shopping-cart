@@ -3,6 +3,7 @@ import { v4 as uuid4 } from 'uuid';
 import { styled } from 'styled-components';
 import Product from './Product';
 import StyledButton from './Button';
+import Header from './Header';
 
 const StyledLatestProducts = styled.div`
   display: flex;
@@ -10,10 +11,7 @@ const StyledLatestProducts = styled.div`
   align-items: center;
   gap: 40px;
 `;
-const Header = styled.h1`
-  font-weight: bold;
-  font-size: 30px;
-`;
+
 const Products = styled.div`
   display: flex;
   flex-wrap: wrap;

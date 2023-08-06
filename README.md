@@ -35,3 +35,14 @@ Photo by cottonbro studio: https://www.pexels.com/photo/woman-wearing-black-dres
 Photo by Terje Sollie: https://www.pexels.com/photo/pair-of-brown-leather-casual-shoes-on-table-298863/
 
 Photo by THE 5TH: https://www.pexels.com/photo/woman-wearing-peach-dress-and-black-jacket-s-left-hand-closeup-photography-179909/
+
+<a href="https://www.flaticon.com/free-icons/delivery" title="delivery icons">Delivery icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/award" title="award icons">Award icons created by amonrat rungreangfangsai - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/free" title="free icons">Free icons created by Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by edt.im - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/youtube-logo" title="youtube logo icons">Youtube logo icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/marker" title="marker icons">Marker icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Gregor Cresnar - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>

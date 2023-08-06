@@ -1,6 +1,7 @@
 import { styled } from 'styled-components';
 import CarouselComponent from './Carousel';
 import LatestProducts from './LatestProducts';
+import ShopReasons from './ShopReasons';
 
 const StyledHome = styled.main`
   display: flex;
@@ -14,6 +15,7 @@ function Home() {
     <StyledHome>
       <CarouselComponent />
       <LatestProducts />
+      <ShopReasons />
     </StyledHome>
   );
 }
