@@ -3,6 +3,7 @@ import { styled } from 'styled-components';
 import mapIcon from '../assets/maps-and-flags.png';
 import phoneIcon from '../assets/telephone.png';
 import mailIcon from '../assets/mail.png';
+import Icon from './Icon';
 
 const StyledContact = styled.div`
   display: flex;
@@ -13,13 +14,6 @@ const StyledContact = styled.div`
 const ContactInfo = styled.div`
   display: flex;
   gap: 5px;
-`;
-
-const Icon = styled.div<{ src: string }>`
-  background-image: url(${(props) => props.src});
-  background-position: center;
-  width: 16px;
-  height: 16px;
 `;
 
 function Contact() {
@@ -39,7 +33,7 @@ function Contact() {
   ];
   const contactInfoComponents = contactInfo.map((item) => (
     <ContactInfo key={uuid4()}>
-      <Icon src={item.src} />
+      <Icon icon={item.src} width={16} height={16} />
       <div>{item.info}</div>
     </ContactInfo>
   ));

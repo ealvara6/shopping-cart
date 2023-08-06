@@ -6,6 +6,7 @@ import instagramIcon from '../assets/instagram.png';
 import youtubeIcon from '../assets/youtube.png';
 import Contact from './Contact';
 import Copyright from './Copyright';
+import Icon from './Icon';
 
 const StyledFooter = styled.footer`
   display: flex;
@@ -77,7 +78,9 @@ function Footer() {
       <div>{item.desc}</div>
     </Section>
   ));
-  const iconComponents = icons.map((item) => <SocialsIcon image={item} key={uuid4()} />);
+  const iconComponents = icons.map(
+    (item) => <Icon $link icon={item} width={24} height={24} key={uuid4()} as="a" href="./" />,
+  );
 
   return (
     <StyledFooter>
