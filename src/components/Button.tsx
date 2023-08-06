@@ -1,11 +1,11 @@
-import { styled } from 'styled-components';
+import { styled, css } from 'styled-components';
 
-const StyledButton = styled.button<{ $shop? : boolean }>`
+const StyledButton = styled.button<{ $primary? : boolean }>`
   background: linear-gradient(to left, #F4F2DE 50%, #7C9D96 50%) right;
   background-size: 200% 100%;
   border: none;
-  height: 45px;
-  width: 95px;
+  width: 150px;
+  height: 50px;
   font-size: 16px;
   cursor: pointer;
   transition: all 500ms ease;
@@ -14,16 +14,16 @@ const StyledButton = styled.button<{ $shop? : boolean }>`
     color: white;
     background-position: left;
   }
+
+  ${(props) => props.$primary && css`
+    color: white;
+    background: linear-gradient(to left, #7C9D96 50%, #F4F2DE 50%) right;
+    background-size: 200% 100%;
+
+    &:hover {
+      color: black;
+    }
+  `}
 `;
 
-interface ButtonInterface {
-  name: string;
-}
-
-function Button({ name }: ButtonInterface) {
-  return (
-    <StyledButton>{name}</StyledButton>
-  );
-}
-
-export default Button;
+export default StyledButton;

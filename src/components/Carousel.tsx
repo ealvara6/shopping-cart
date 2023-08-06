@@ -7,6 +7,7 @@ import electronics from '../assets/electronics.jpg';
 import jewellery from '../assets/jewellery.jpg';
 import menClothes from '../assets/men-clothes.jpg';
 import womenClothes from '../assets/women-clothes.jpg';
+import StyledButton from './Button';
 
 const Image = styled.div<{ image: string }>`
   display: flex;
@@ -26,6 +27,13 @@ const ImageContent = styled.div`
   padding: 50px;
   width: 75vw;
   height: 100%;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+  }
 `;
 
 const Text = styled.div`
@@ -34,32 +42,18 @@ const Text = styled.div`
   gap: 20px;
   text-align: left;
   color: white;
-  width: 500px;
+  max-width: 500px;
   line-height: 1.3;
   font-size: 18px;
+
+  @media screen and (max-width: 650px) {
+    text-align: center;
+  }
 `;
 
 const Header = styled.div`
-font-weight: bold;
-font-size: 48px;
-`;
-
-const Button = styled.button`
-  background: linear-gradient(to left, #7C9D96 50%, #F4F2DE 50%) right;
-  color: white;
-  background-size: 200% 100%;
   font-weight: bold;
-  border: none;
-  width: 150px;
-  height: 50px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 500ms ease;
-
-  &:hover {
-    color: black;
-    background-position: left;
-  }
+  font-size: 48px;
 `;
 
 function CarouselComponent() {
@@ -92,13 +86,13 @@ function CarouselComponent() {
             Suscipit a vero non, sit rerum fugit?
           </p>
         </Text>
-        <Button>SHOP NOW</Button>
+        <StyledButton $primary>SHOP NOW</StyledButton>
       </ImageContent>
     </Image>
   ));
 
   return (
-    <Carousel emulateTouch showThumbs={false} autoPlay infiniteLoop>
+    <Carousel emulateTouch showThumbs={false} infiniteLoop centerMode centerSlidePercentage={100}>
       {carouselSlideComponent}
     </Carousel>
   );

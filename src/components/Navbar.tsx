@@ -1,5 +1,5 @@
 import { styled } from 'styled-components';
-import Button from './Button';
+import StyledButton from './Button';
 
 const StyledHeader = styled.nav`
   display: flex;
@@ -42,9 +42,9 @@ function Header() {
         </h1>
       </Title>
       <NavLinks>
-        <Button name="HOME" />
-        <Button name="SHOP" />
-        <Button name="ABOUT" />
+        <StyledButton>HOME</StyledButton>
+        <StyledButton>SHOP</StyledButton>
+        <StyledButton>ABOUT</StyledButton>
       </NavLinks>
     </StyledHeader>
   );
